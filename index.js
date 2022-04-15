@@ -5,6 +5,7 @@ const dotenv = require("dotenv");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/user");
 const productRoute = require("./routes/product");
+const cartRoute = require("./routes/cart");
 
 dotenv.config();
 
